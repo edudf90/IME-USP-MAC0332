@@ -1,0 +1,33 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<html>
+	<head>
+		<title>Controle de Pedidos</title>
+		<link href="<c:url value="/ep1.css"/>" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="<c:url value="/jquery-1.8.0.js"/>"></script>
+		<fmt:setLocale value="pt_br"/>
+	</head>
+	
+<body>
+	<div id="header">
+		
+	</div>
+	<div id="erros">
+		<ul>
+		</ul>
+	</div>
+		
+	<div id="body">
+		<div id="menu">
+			<ul>
+				<li><a href="<c:url value="/"/>">Página Inicial</a></li>
+			</ul>
+			<ul>
+				<li><a href="<c:url value="/pedido/lista"/>">Lista Pedidos</a></li>
+			</ul>
+			<ul>
+				<li><a href="<c:url value="/pedido/cadastro"/>">Cadastra Pedido</a></li>
+			</ul>
+		</div>
+		<div id="content">
+		

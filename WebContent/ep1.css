@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+.texto1{
+	text-align:center;
+	font-size: 22px;
+}
+
+.theader1{
+	background-color: navy;
+	color: rgb(255,255,255);
+}
+
+.linha1{
+	background-color: rgb(190,210,190);
+	font-size:11px;
+}
+
+.linha2{
+	background-color: rgb(190,190,210);
+	font-size:11px;
+}
+
+body{
+	background-color: rgb(190,190,210);
+}
+
+a{
+	color:black;
+	font-size:14px;
+}
+
+#menu{
+	float:left;
+	height:100%;
+	width:15%;
+	background-color: rgb(190,190,210);
+}
+
+#content{
+	height:100%;
+	background-color: rgb(100,100,140);
+}
+
+tr{
+	text-align:center;
+}
