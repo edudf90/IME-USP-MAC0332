@@ -8,7 +8,8 @@
 		<property name="hibernate.connection.username">
 			root
 		</property>
-		<property name="hibernate.connection.password">123</property>
+		<property name="hibernate.connection.password">
+		</property>
 		<property name="hibernate.connection.url">
 			jdbc:mysql://localhost/ep1-esw
 		</property>
